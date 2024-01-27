@@ -15,7 +15,6 @@ export default function Navbar() {
       />
       <h1>Nicks Resume</h1>
       <Link href="/">Home</Link>
-      <Link href="/resume">Resume</Link>
       <Link href="/sites">Sites</Link>
       <Link href="/contact">Contact</Link>
     </nav>
