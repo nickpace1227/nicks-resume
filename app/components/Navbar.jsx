@@ -4,7 +4,7 @@ import Logo from "./logo.png";
 
 export default function Navbar() {
   return (
-    <nav>
+    <div className="flex">
       <Image
         src={Logo}
         alt="logo"
@@ -12,11 +12,25 @@ export default function Navbar() {
         height={100}
         quality={100}
         placeholder="blur"
+        className="m-2"
       />
-      <h1>Nicks Resume</h1>
-      <Link href="/">Home</Link>
-      <Link href="/sites">Sites</Link>
-      <Link href="/contact">Contact</Link>
-    </nav>
+      <div>
+        <h1 className="m-2">Nick's Resume</h1>
+        <nav>
+          <Link href="/" className="m-2">
+            Home
+          </Link>
+          <Link href="/mySites" className="m-2">
+            Sites
+          </Link>
+          <Link href="/about" className="m-2">
+            About
+          </Link>
+          <Link href="/contact" className="m-2">
+            Contact
+          </Link>
+        </nav>
+      </div>
+    </div>
   );
 }
