@@ -1,13 +1,13 @@
 export default function Home() {
   return (
     <main className="flex flex-col items-center">
-      <div>Welcome!</div>
-      <div className="text-center">
+      <div className="text-center m-2">Welcome!</div>
+      <div className="text-center m-2">
         Hey there! My name is Nick and I am an aspiring web developer. I've done
         IT for close to 10 years now and am looking to branch out to new
         horizons.
       </div>
-      <div>
+      <div className="text-center m-2">
         The bulk of my experience with IT has been focused on supporting various
         different military commands and government agencies. I've always been
         interested in creating things and problem solving. Inherently, the
@@ -22,7 +22,7 @@ export default function Home() {
         develop new skills and work my way towards doing this as a full-time
         job.
       </div>
-      <div>
+      <div className="text-center m-2">
         If you'd like to see my work, head on over to the resume section; if
         you'd like to get to know me better, head to the About section; and if
         you're looking to reach out, head over to the, you guessed it, contact
