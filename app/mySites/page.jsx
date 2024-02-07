@@ -3,7 +3,7 @@ export default function Sites() {
     <main className="flex flex-col items-center">
       <div className="flex flex-col items-end w-134">
         <div className="w-60">
-          <div className="text-center">WeatherSpout</div>
+          <div className="text-center font-Lemon">WeatherSpout</div>
           <div>
             This site is designed as a fairly simple weather app. More to find
             out if you need a jacket for that day, the next few hours, or the
@@ -21,7 +21,7 @@ export default function Sites() {
       </div>
       <div className="flex flex-col w-134">
         <div className="w-60">
-          <div className="text-center">Spirits Almanac</div>
+          <div className="text-center font-FjallaOne">Spirits Almanac</div>
           <div>
             Spirits Almanac is designed as a site in which to catalouge spirits
             you've tasted to advance the future of whiskey nerds, such as
@@ -40,7 +40,9 @@ export default function Sites() {
       </div>
       <div className="flex flex-col items-end w-134">
         <div className="w-60">
-          <div className="text-center">Thornbush Photography</div>
+          <div className="text-center font-BadScript">
+            Thornbush Photography
+          </div>
           <div className="">
             Thornbush Photography was developed with a photographer in mind.
             This site is intended to showcase a portfolio as well as provide a

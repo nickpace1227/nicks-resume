@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "FjallaOne";
+  src: url("../public/fonts/spirits-almanac-font/FjallaOne.ttf");
+}
+
+@font-face {
+  font-family: "Lemon";
+  src: url("../public/fonts/weatherspout-font/Lemon.ttf");
+}
+
+@font-face {
+  font-family: "BadScript";
+  src: url("../public/fonts/thornbush-font/BadScript.ttf");
+}
+
 body {
   background: #ebf0fa;
   @apply text-gray-500 m-8;

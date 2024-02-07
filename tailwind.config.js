@@ -13,6 +13,11 @@ module.exports = {
       spacing: {
         134: "33.5rem",
       },
+      fontFamily: {
+        FjallaOne: ["FjallaOne", "sans-serif"],
+        Lemon: ["Lemon", "serif"],
+        BadScript: ["BadScript", "sans-serif"],
+      },
     },
   },
   plugins: [],
