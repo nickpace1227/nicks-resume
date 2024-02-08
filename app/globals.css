@@ -17,6 +17,11 @@
   src: url("../public/fonts/thornbush-font/BadScript.ttf");
 }
 
+@font-face {
+  font-family: "Honk";
+  src: url("../public/fonts/nicks-resume-font/Honk.ttf");
+}
+
 body {
   background: #ebf0fa;
   @apply text-gray-500 m-8;

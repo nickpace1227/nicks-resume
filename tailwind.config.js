@@ -11,12 +11,13 @@ module.exports = {
         primary: "#7856ff",
       },
       spacing: {
-        134: "33.5rem",
+        150: "37.5rem",
       },
       fontFamily: {
-        FjallaOne: ["FjallaOne", "sans-serif"],
-        Lemon: ["Lemon", "serif"],
-        BadScript: ["BadScript", "sans-serif"],
+        FjallaOne: ["FjallaOne"],
+        Lemon: ["Lemon"],
+        BadScript: ["BadScript"],
+        Honk: ["Honk"],
       },
     },
   },
