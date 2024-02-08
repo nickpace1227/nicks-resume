@@ -23,9 +23,6 @@ export default function Navbar() {
           <Link href="/mySites" className="m-2">
             Sites
           </Link>
-          <Link href="/about" className="m-2">
-            About
-          </Link>
           <Link href="/contact" className="m-2">
             Contact
           </Link>
