@@ -2,9 +2,9 @@ import Link from "next/link";
 import Image from "next/image";
 import Logo from "./logo.png";
 
-export default function Navbar() {
+export default function Header() {
   return (
-    <div className="flex">
+    <div className="flex h-24 top-0 absolute w-full">
       <Image
         src={Logo}
         alt="logo"

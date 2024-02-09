@@ -24,5 +24,6 @@
 
 body {
   background: #ebf0fa;
-  @apply text-gray-500 m-8;
+  margin: 0px;
+  font-family: "";
 }

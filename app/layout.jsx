@@ -1,4 +1,5 @@
-import Navbar from "./components/Navbar";
+import Header from "./components/header";
+import Footer from "./components/footer";
 import "./globals.css";
 import { Inter } from "next/font/google";
 
@@ -12,9 +13,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
-        <Navbar />
+      <body className="h-full min-h-screen relative pt-24 pb-24">
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <main className="flex flex-col items-center h-screen">
+    <main className="flex flex-col items-center h-auto">
       <div className="text-center m-2 w-168">Welcome!</div>
       <div className="text-center m-2 w-168">
         Hey there! My name is Nick and I am an aspiring web developer. I've done
@@ -29,7 +29,7 @@ export default function Home() {
         recently married.
       </div>
       <div className="text-center m-2 w-168">
-        If you'd like to see a high level of my work, and check out some links,
+        If you'd like to see a high level of my work and check out some links,
         head on over to the Sites section and have a look. If you're looking to
         reach out, head over to, you guessed it, the Contact page.
       </div>
