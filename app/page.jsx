@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <main className="flex flex-col items-center h-auto">
-      <div className="text-center m-2 w-168">Welcome!</div>
+      <div className="text-center m-2 mt-4 w-168">Welcome!</div>
       <div className="text-center m-2 w-168">
         Hey there! My name is Nick and I am an aspiring web developer. I've done
         IT for close to 10 years now and am looking to branch out to new
