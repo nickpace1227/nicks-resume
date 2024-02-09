@@ -19,7 +19,7 @@ export default function Sites() {
         <div className="flex items-center m-4">
           <Image
             alt="WeatherSpout Preview"
-            className="m-4 w-60"
+            className="m-4 w-60 shadow-dark"
             src={WeatherSpoutPreview}
           />
           <div className="w-60 m-4">
@@ -68,7 +68,7 @@ export default function Sites() {
           </div>
           <Image
             alt="Spirits Almanac Preview"
-            className="m-4 h-52 w-96"
+            className="m-4 h-52 w-96 shadow-dark"
             src={SpiritsAlmanacPreview}
           />
         </div>
@@ -80,7 +80,7 @@ export default function Sites() {
         <div className="flex items-center m-4">
           <Image
             alt="Thornbush Photography Preview"
-            className="m-4 h-52 w-96"
+            className="m-4 h-52 w-96 shadow-dark"
             src={ThornbushPreview}
           />
           <div className="w-96 m-4">
@@ -109,7 +109,7 @@ export default function Sites() {
       <div className="flex items-end justify-evenly w-168">
         <div className="flex items-center m-4">
           <div className="w-96 m-4">
-            <div className="text-center font-FjallaOne text-2xl my-2">
+            <div className="text-center font-Honk text-3xl my-2">
               Nick's Resume
             </div>
             <div className="my-2">
@@ -126,7 +126,7 @@ export default function Sites() {
           </div>
           <Image
             alt="Nick's Resume Preview"
-            className="m-4 h-52 w-96"
+            className="m-4 h-52 w-96 shadow-dark"
             src={NicksResumePreview}
           />
         </div>

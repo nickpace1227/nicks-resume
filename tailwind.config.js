@@ -19,6 +19,10 @@ module.exports = {
         Lemon: ["Lemon"],
         BadScript: ["BadScript"],
         Honk: ["Honk"],
+        Martel: ["Martel"],
+      },
+      boxShadow: {
+        dark: "0 10px 15px -3px rgb(0 0 0 / 0.7), 0 4px 6px -4px rgb(0 0 0 / 0.7)",
       },
     },
   },

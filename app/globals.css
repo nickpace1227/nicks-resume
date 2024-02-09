@@ -22,8 +22,13 @@
   src: url("../public/fonts/nicks-resume-font/Honk.ttf");
 }
 
+@font-face {
+  font-family: "Martel";
+  src: url("../public/fonts/Martel.ttf");
+}
+
 body {
   background: #ebf0fa;
   margin: 0px;
-  font-family: "";
+  font-family: "Martel";
 }
