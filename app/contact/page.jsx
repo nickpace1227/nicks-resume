@@ -7,7 +7,7 @@ export default function Contact() {
       </div>
       <div className="mt-4">Nicholas "Nick" Pace</div>
       <div className="mt-4">NicholasPPace@gmail.com</div>
-      <div className="">{`(Don't forget the second "P" in the middle there. Happens all the time)`}</div>
+      <div className="">{`(Don't forget the second "P" in the middle there. Happens all the time.)`}</div>
       <div className="mt-4">{"(813) 778-7337"}</div>
     </div>
   );
