@@ -1,7 +1,7 @@
 export default function Contact() {
   return (
     <div className="h-auto flex flex-col items-center">
-      <div className="mt-16">
+      <div className="mt-4">
         Feel the need to reach out? Feel free send me an email or give me a
         call, and I'd be happy to chat!
       </div>

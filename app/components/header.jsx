@@ -11,10 +11,10 @@ export default function Header() {
           alt="logo"
           quality={100}
           placeholder="blur"
-          className="m-2 h-16 w-16"
+          className="m-2 h-16 w-16 rounded-full"
         />
         <div>
-          <h1 className="m-2">Nick's Resume</h1>
+          <h1 className="m-2 font-Honk text-4xl">Nick's Resume</h1>
           <nav>
             <Link href="/" className="m-2">
               Home
