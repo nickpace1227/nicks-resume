@@ -14,7 +14,7 @@ export default function Footer() {
             alt="GitHub Logo"
           />
         </Link>
-        <Link href="https://www.google.com">
+        <Link href="https://www.linkedin.com/in/nicholas-pace-ab8717125/">
           <Image className="w-12 h-12 mx-4" src={LiInBug} alt="LinkedIn Logo" />
         </Link>
       </div>
