@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       colors: {
         primary: "#7856ff",
+        blue: "blue",
       },
       spacing: {
         150: "37.5rem",
