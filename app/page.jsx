@@ -50,40 +50,6 @@ export default function Home() {
           {/* Row One */}
           <div className="flex w-full justify-evenly">
             <div className="flex flex-col items-center m-2">
-              <Image src={css} className="m-2 h-16 w-16" />
-              <div className="w-full p-2 text-sm text-center bg-green-700 rounded-lg">
-                CSS
-              </div>
-            </div>
-            <div className="flex flex-col items-center m-2">
-              <Image src={vscode} className="m-2 h-16 w-16" />
-              <div className="w-full p-2 text-sm text-center bg-green-700 rounded-lg">
-                VSCode
-              </div>
-            </div>
-            <div className="flex flex-col items-center m-2">
-              <Image src={html} className="m-2 h-16 w-16" />
-              <div className="w-full p-2 text-sm text-center bg-green-700 rounded-lg">
-                HTML
-              </div>
-            </div>
-            <div className="flex flex-col items-center m-2">
-              <Image src={git} className="m-2 h-16 w-16" />
-              <div className="w-full p-2 text-sm text-center bg-green-700 rounded-lg">
-                Git
-              </div>
-            </div>
-            <div className="flex flex-col items-center m-2">
-              <Image src={github} className="m-2 h-16 w-16" />
-              <div className="w-full p-2 text-sm text-center bg-green-700 rounded-lg">
-                GitHub
-              </div>
-            </div>
-          </div>
-
-          {/* Row Two */}
-          <div className="flex w-full justify-evenly">
-            <div className="flex flex-col items-center m-2">
               <Image src={js} className="m-2 h-16 w-16" />
               <div className="text-wrap p-2 text-sm text-center bg-green-700 rounded-lg">
                 Java Script
@@ -111,6 +77,40 @@ export default function Home() {
               <Image src={redux} className="m-2 h-16 w-16" />
               <div className="w-full p-2 text-sm text-center bg-green-700 rounded-lg">
                 Redux
+              </div>
+            </div>
+          </div>
+
+          {/* Row Two */}
+          <div className="flex w-full justify-evenly">
+            <div className="flex flex-col items-center m-2">
+              <Image src={html} className="m-2 h-16 w-16" />
+              <div className="w-full p-2 text-sm text-center bg-green-700 rounded-lg">
+                HTML
+              </div>
+            </div>
+            <div className="flex flex-col items-center m-2">
+              <Image src={css} className="m-2 h-16 w-16" />
+              <div className="w-full p-2 text-sm text-center bg-green-700 rounded-lg">
+                CSS
+              </div>
+            </div>
+            <div className="flex flex-col items-center m-2">
+              <Image src={vscode} className="m-2 h-16 w-16" />
+              <div className="w-full p-2 text-sm text-center bg-green-700 rounded-lg">
+                VSCode
+              </div>
+            </div>
+            <div className="flex flex-col items-center m-2">
+              <Image src={git} className="m-2 h-16 w-16" />
+              <div className="w-full p-2 text-sm text-center bg-green-700 rounded-lg">
+                Git
+              </div>
+            </div>
+            <div className="flex flex-col items-center m-2">
+              <Image src={github} className="m-2 h-16 w-16" />
+              <div className="w-full p-2 text-sm text-center bg-green-700 rounded-lg">
+                GitHub
               </div>
             </div>
           </div>
