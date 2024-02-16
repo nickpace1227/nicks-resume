@@ -19,16 +19,17 @@
 
 @font-face {
   font-family: "Honk";
-  src: url("../public/fonts/nicks-resume-font/Honk.ttf");
+  src: url("../public/fonts/nicks-resume-fonts/Honk.ttf");
 }
 
 @font-face {
-  font-family: "Martel";
-  src: url("../public/fonts/Martel.ttf");
+  font-family: "Fredoka";
+  src: url("../public/fonts/nicks-resume-fonts/Fredoka.ttf");
 }
 
 body {
   background: #ebf0fa;
   margin: 0px;
-  font-family: "Martel";
+  font-family: "Fredoka";
+  font-size: 18px;
 }

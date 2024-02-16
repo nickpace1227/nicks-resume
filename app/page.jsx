@@ -116,7 +116,7 @@ export default function Home() {
           </div>
 
           {/* Row Three */}
-          <div className="flex w-full">
+          <div className="flex w-full justify-evenly">
             <div className="flex flex-col items-center m-2 bg-blueGray rounded-lg">
               <Image src={styledComponentsLogo} className="m-2 h-16 w-16" />
               <div className="w-full text-wrap p-2 text-sm text-center bg-limeGreen rounded-lg">

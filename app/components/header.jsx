@@ -10,19 +10,19 @@ export default function Header() {
         <nav>
           <Link
             href="/"
-            className="m-2 px-1 bg-blueGray rounded-lg hover:bg-white"
+            className="m-2 p-1.5 bg-blueGray rounded-lg hover:bg-white"
           >
             Home
           </Link>
           <Link
             href="/portfolio"
-            className="m-2 px-1 bg-blueGray rounded-lg hover:bg-white"
+            className="m-2 p-1.5 bg-blueGray rounded-lg hover:bg-white"
           >
             Portfolio
           </Link>
           <Link
             href="/contact"
-            className="m-2 px-1 bg-blueGray rounded-lg hover:bg-white"
+            className="m-2 p-1.5 bg-blueGray rounded-lg hover:bg-white"
           >
             Contact
           </Link>

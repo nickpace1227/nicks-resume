@@ -1,8 +1,7 @@
 import Image from "next/image";
-import WeatherSpoutPreview from "../../public/images/weatherspout-image/weatherspout.jpg";
+import WeatherSpritePreview from "../../public/images/weathersprite-image/weathersprite.jpg";
 import SpiritsAlmanacPreview from "../../public/images/spirits-almanac-image/spirits-almanac.jpg";
 import ThornbushPreview from "../../public/images/thornbush-photography-image/thornbush.jpg";
-import NicksResumePreview from "../../public/images/nicks-resume-image/nicks-resume.jpg";
 
 export default function Sites() {
   return (
@@ -14,17 +13,17 @@ export default function Sites() {
         the contact page and drop me a line!
       </div>
 
-      {/* Begin WeatherSpout */}
+      {/* Begin WeatherSprite */}
       <div className="flex items-end w-168 justify-evenly ">
         <div className="flex items-center m-4">
           <Image
-            alt="WeatherSpout Preview"
+            alt="WeatherSprite Preview"
             className="m-4 w-60 shadow-dark"
-            src={WeatherSpoutPreview}
+            src={WeatherSpritePreview}
           />
           <div className="w-60 m-4">
             <div className="text-center font-Lemon text-2xl my-2">
-              WeatherSpout
+              Weathersprite
             </div>
             <div className="my-2">
               This site is designed as a fairly simple weather app. More to find
@@ -38,11 +37,11 @@ export default function Sites() {
               <li>Styled Components</li>
               <li>Mobile Styling</li>
             </ul>
-            <div>WeatherSpout.address</div>
+            <div>weathersprite.address</div>
           </div>
         </div>
       </div>
-      {/* End WeatherSpout */}
+      {/* End weathersprite */}
 
       {/* Begin Spirits Almanac */}
       <div className="flex items-end justify-evenly w-168">
