@@ -9,7 +9,11 @@ module.exports = {
     extend: {
       colors: {
         primary: "#7856ff",
-        blue: "blue",
+        purple: "#2a044a",
+        darkBlue: "#0b2e59",
+        dirtyTeal: "#0d6759",
+        limeGreen: "#7ab317",
+        lightGreen: "#a0c55f",
       },
       spacing: {
         150: "37.5rem",
