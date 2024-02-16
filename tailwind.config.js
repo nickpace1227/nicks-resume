@@ -14,6 +14,7 @@ module.exports = {
         dirtyTeal: "#0d6759",
         limeGreen: "#7ab317",
         lightGreen: "#a0c55f",
+        blueGray: "#8290a8",
       },
       spacing: {
         150: "37.5rem",

@@ -4,29 +4,29 @@ import Logo from "./logo.png";
 
 export default function Header() {
   return (
-    <div className="h-24 top-0 absolute w-full bg-stone-500">
-      <div className="flex justify-center items-center">
-        <Image
-          src={Logo}
-          alt="logo"
-          quality={100}
-          placeholder="blur"
-          className="m-2 h-16 w-16 rounded-full"
-        />
-        <div>
-          <h1 className="m-2 font-Honk text-4xl">Nick's Resume</h1>
-          <nav>
-            <Link href="/" className="m-2">
-              Home
-            </Link>
-            <Link href="/mySites" className="m-2">
-              Sites
-            </Link>
-            <Link href="/contact" className="m-2">
-              Contact
-            </Link>
-          </nav>
-        </div>
+    <div className="h-24 top-0 absolute w-full bg-darkBlue">
+      <div className="flex flex-col items-center">
+        <h1 className="m-2 font-Honk text-4xl">Nick's Resume</h1>
+        <nav>
+          <Link
+            href="/"
+            className="m-2 px-1 bg-blueGray rounded-lg hover:bg-white"
+          >
+            Home
+          </Link>
+          <Link
+            href="/portfolio"
+            className="m-2 px-1 bg-blueGray rounded-lg hover:bg-white"
+          >
+            Portfolio
+          </Link>
+          <Link
+            href="/contact"
+            className="m-2 px-1 bg-blueGray rounded-lg hover:bg-white"
+          >
+            Contact
+          </Link>
+        </nav>
       </div>
     </div>
   );

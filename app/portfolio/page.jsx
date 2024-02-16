@@ -104,34 +104,6 @@ export default function Sites() {
         </div>
       </div>
       {/* End Thornbush Photography */}
-
-      {/* Begin Nick's Resume */}
-      <div className="flex items-end justify-evenly w-168">
-        <div className="flex items-center m-4">
-          <div className="w-96 m-4">
-            <div className="text-center font-Honk text-3xl my-2">
-              Nick's Resume
-            </div>
-            <div className="my-2">
-              Nick's Resume is, well, this site. It's designed with a focus on
-              putting all of my skills in one place for ease of viewing.
-            </div>
-            <div className="text-center underline">Notable Features</div>
-            <ul>
-              <li>Next.JS</li>
-              <li>Tailwind</li>
-              <li>EmailJS</li>
-            </ul>
-            <div>NicksResume.address</div>
-          </div>
-          <Image
-            alt="Nick's Resume Preview"
-            className="m-4 h-52 w-96 shadow-dark"
-            src={NicksResumePreview}
-          />
-        </div>
-      </div>
-      {/* End Nick's Resume */}
     </main>
   );
 }
