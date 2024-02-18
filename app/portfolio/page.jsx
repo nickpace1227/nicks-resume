@@ -7,10 +7,10 @@ export default function Sites() {
   return (
     <main className="flex flex-col items-center h-auto">
       <div className="text-center w-168 m-4">
-        Below you'll find an assortment of my work. There's a few high level
+        {`Below you'll find an assortment of my work. There's a few high level
         details about each site, a link to the actual site, and a quick glimpse
         of the site. If you have any questions not answered here, head over to
-        the contact page and drop me a line!
+        the contact page and drop me a line!`}
       </div>
 
       {/* Begin WeatherSprite */}
@@ -26,9 +26,9 @@ export default function Sites() {
               Weathersprite
             </div>
             <div className="my-2">
-              This site is designed as a fairly simple weather app. More to find
+              {`This site is designed as a fairly simple weather app. More to find
               out if you need a jacket for that day, the next few hours, or the
-              next few days.
+              next few days.`}
             </div>
             <div className="text-center underline">Notable Features</div>
             <ul>
@@ -51,9 +51,9 @@ export default function Sites() {
               Spirits Almanac
             </div>
             <div className="my-2">
-              Spirits Almanac is designed as a site in which to catalouge
+              {`Spirits Almanac is designed as a site in which to catalouge
               spirits you've tasted to advance the future of whiskey nerds, such
-              as myself.
+              as myself.`}
             </div>
             <div className="text-center underline">Notable Features</div>
             <ul>
@@ -87,9 +87,9 @@ export default function Sites() {
               Thornbush Photography
             </div>
             <div className="my-2">
-              Thornbush Photography was developed with a photographer in mind.
+              {`Thornbush Photography was developed with a photographer in mind.
               This site is intended to showcase a portfolio as well as provide a
-              contact point with fans of the photographer's work.
+              contact point with fans of the photographer's work.`}
             </div>
             <div className="text-center underline">Notable Features</div>
             <ul>
