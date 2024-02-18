@@ -19,6 +19,7 @@ module.exports = {
       spacing: {
         150: "37.5rem",
         168: "42rem",
+        200: "50rem",
       },
       fontFamily: {
         FjallaOne: ["FjallaOne"],

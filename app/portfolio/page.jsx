@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 import WeatherSpritePreview from "../../public/images/weathersprite-image/weathersprite.jpg";
 import SpiritsAlmanacPreview from "../../public/images/spirits-almanac-image/spirits-almanac.jpg";
 import ThornbushPreview from "../../public/images/thornbush-photography-image/thornbush.jpg";
@@ -14,13 +16,16 @@ export default function Sites() {
       </div>
 
       {/* Begin WeatherSprite */}
-      <div className="flex items-end w-168 justify-evenly ">
+      <div className="flex items-end w-200 justify-evenly h-auto">
         <div className="flex items-center m-4">
-          <Image
-            alt="WeatherSprite Preview"
-            className="m-4 w-60 shadow-dark"
-            src={WeatherSpritePreview}
-          />
+          <a href="https://www.weathersprite.com" target="_blank">
+            <Image
+              alt="WeatherSprite Preview"
+              className="m-4 w-60 shadow-dark"
+              src={WeatherSpritePreview}
+            />
+          </a>
+
           <div className="w-60 m-4">
             <div className="text-center font-Lemon text-2xl my-2">
               Weathersprite
@@ -30,23 +35,32 @@ export default function Sites() {
               out if you need a jacket for that day, the next few hours, or the
               next few days.`}
             </div>
-            <div className="text-center underline">Notable Features</div>
-            <ul>
+            <div className="text-center underline m-2">Notable Features</div>
+            <ul className="my-2 text-center">
               <li>React</li>
               <li>Async/Await API Calls</li>
               <li>Styled Components</li>
               <li>Mobile Styling</li>
             </ul>
-            <div>weathersprite.address</div>
+            <div className="mt-2">
+              <div className="underline text-center">Site Link</div>
+              <a
+                className="text-darkBlue flex justify-center"
+                href="https://www.weathersprite.com"
+                target="_blank"
+              >
+                WeatherSprite.com
+              </a>
+            </div>
           </div>
         </div>
       </div>
       {/* End weathersprite */}
 
       {/* Begin Spirits Almanac */}
-      <div className="flex items-end justify-evenly w-168">
+      <div className="flex items-end justify-evenly w-200">
         <div className="flex items-center m-4">
-          <div className="w-96 m-4">
+          <div className="w-60 m-4">
             <div className="text-center font-FjallaOne text-2xl my-2">
               Spirits Almanac
             </div>
@@ -56,33 +70,47 @@ export default function Sites() {
               as myself.`}
             </div>
             <div className="text-center underline">Notable Features</div>
-            <ul>
+            <ul className="my-2 text-center">
               <li>React</li>
               <li>Redux</li>
-              <li>Styled Components</li>
               <li>Modals</li>
+              <li>Styled Components</li>
               <li>Search Functionality</li>
             </ul>
-            <div>SpiritsAlmanac.address</div>
+            <div className="mt-2">
+              <div className="underline text-center">Site Link</div>
+              <a
+                className="text-darkBlue flex justify-center"
+                href="https://www.spiritsalmanac.com"
+                target="_blank"
+              >
+                SpiritsAlmanac.com
+              </a>
+            </div>
           </div>
-          <Image
-            alt="Spirits Almanac Preview"
-            className="m-4 h-52 w-96 shadow-dark"
-            src={SpiritsAlmanacPreview}
-          />
+          <a href="https://www.spiritsalmanac.com" target="_blank">
+            <Image
+              alt="Spirits Almanac Preview"
+              className="m-4 h-52 w-96 shadow-dark"
+              src={SpiritsAlmanacPreview}
+            />
+          </a>
         </div>
       </div>
       {/* End Spirits Almanac */}
 
       {/* Begin Thornbush Photography */}
-      <div className="flex items-end justify-evenly w-168">
+      <div className="flex items-end justify-evenly w-200">
         <div className="flex items-center m-4">
-          <Image
-            alt="Thornbush Photography Preview"
-            className="m-4 h-52 w-96 shadow-dark"
-            src={ThornbushPreview}
-          />
-          <div className="w-96 m-4">
+          <a href="https://www.spiritsalmanac.com" target="_blank">
+            <Image
+              alt="Thornbush Photography Preview"
+              className="m-4 h-52 w-96 shadow-dark"
+              src={ThornbushPreview}
+            />
+          </a>
+
+          <div className="w-60 m-4">
             <div className="text-center font-BadScript text-2xl my-2">
               Thornbush Photography
             </div>
@@ -92,13 +120,22 @@ export default function Sites() {
               contact point with fans of the photographer's work.`}
             </div>
             <div className="text-center underline">Notable Features</div>
-            <ul>
+            <ul className="my-2 text-center">
               <li>React</li>
               <li>Styled Components</li>
               <li>EmailJS</li>
               <li>Modals</li>
             </ul>
-            <div>ThornbushPhotography.com</div>
+            <div className="mt-2">
+              <div className="underline text-center">Site Link</div>
+              <a
+                className="text-darkBlue flex justify-center"
+                href="https://www.thornbushphotography.com"
+                target="_blank"
+              >
+                ThornbushPhotography.com
+              </a>
+            </div>
           </div>
         </div>
       </div>
