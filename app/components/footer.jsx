@@ -4,7 +4,7 @@ import LiInBug from "../../public/images/logos/Li-In-Bug.png";
 
 export default function Footer() {
   return (
-    <div className="bg-darkBlue h-24 bottom-0 w-full absolute">
+    <div className="bg-limeGreen h-24 bottom-0 w-full absolute">
       <div className="flex justify-center items-center h-24">
         <a
           target="_blank"

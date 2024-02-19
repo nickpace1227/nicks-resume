@@ -17,13 +17,13 @@ import node from "../public/images/logos/node-js.png";
 export default function Home() {
   return (
     <main className="flex flex-col items-center h-auto">
-      <div className="text-center m-2 mt-4 w-168">Welcome!</div>
-      <div className="text-center m-2 w-168">
+      <div className="text-center m-2 mt-4 w-200 p-0">Welcome!</div>
+      <div className="text-center m-2 w-200">
         {`Hey there! My name is Nick and I am an aspiring web developer. I've done
         IT for close to 10 years now and am looking to branch out to new
         horizons.`}
       </div>
-      <div className="text-center m-2 w-168">
+      <div className="text-center m-2 w-200">
         {`The bulk of my experience with IT has been focused on supporting various
         different military commands and government agencies. I've always been
         interested in creating things and problem solving. My learning track has
@@ -32,13 +32,13 @@ export default function Home() {
         industry to develop new skills and work my way towards doing this as a
         full-time job.`}
       </div>
-      <div className="text-center m-2 w-168">
+      <div className="text-center m-2 w-200">
         {`I graduated from USF in 2016. I have a passion for playing TTRPGs, think
         Dungeons & Dragons, video games, and reading. I've been known to enjoy
         hiking, and doing, mostly, wildlife photography. I've got 2 dogs and am
         recently married.`}
       </div>
-      <div className="text-center m-2 w-168">
+      <div className="text-center m-2 w-200">
         {`Below is a general list of systems, languages, and technology I've used.
         If you'd like to see a high level of my work and check out some links,
         head on over to the Sites section and have a look. If you're looking to

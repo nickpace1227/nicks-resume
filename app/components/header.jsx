@@ -4,7 +4,7 @@ import Logo from "./logo.png";
 
 export default function Header() {
   return (
-    <div className="h-24 top-0 absolute w-full bg-darkBlue">
+    <div className="h-24 top-0 absolute w-full bg-limeGreen">
       <div className="flex flex-col items-center">
         <h1 className="m-2 font-Honk text-4xl">{`Nick's Resume`}</h1>
         <nav>
