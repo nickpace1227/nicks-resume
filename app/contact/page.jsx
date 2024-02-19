@@ -1,14 +1,139 @@
+"use client";
+
+import { useState } from "react";
+import emailjs from "@emailjs/browser";
+
 export default function Contact() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [validName, setValidName] = useState(true);
+  const [validEmail, setValidEmail] = useState(true);
+  const [validMessage, setValidMessage] = useState(true);
+  const [validForm, setValidForm] = useState(false);
+
+  const contactMessage = {
+    from_name: name,
+    reply_to: email,
+    message,
+  };
+
+  const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    const errorCheck = {
+      name: validName,
+      email: validEmail,
+      message: validMessage,
+      form: validForm,
+    };
+
+    if (name === "") {
+      setValidName(false);
+      errorCheck.name = false;
+    }
+
+    if (!emailRegex.test(email)) {
+      setValidEmail(false);
+      errorCheck.email = false;
+    }
+
+    if (message === "") {
+      setValidMessage(false);
+      errorCheck.message = false;
+    }
+
+    if (!errorCheck.message || !errorCheck.email || !errorCheck.name) {
+      setValidForm(false);
+      return;
+    }
+
+    if (errorCheck.message && errorCheck.email && errorCheck.name) {
+      setValidForm(true);
+      errorCheck.form = true;
+
+      if (errorCheck.form) {
+        emailjs
+          .send(
+            "service_kbie0nm",
+            "template_6v6pq99",
+            contactMessage,
+            "A50rxTr5mug440osn"
+          )
+          .then((response) => {
+            console.log("SUCCESS!", response.status, response.text);
+          })
+          .catch((error) => {
+            console.log("FAILED...", error);
+          });
+      }
+    }
+  };
+
   return (
-    <div className="h-auto flex flex-col items-center">
-      <div className="m-2 mt-4 w-200">
-        {` Feel the need to reach out? Feel free send me an email or give me a
-        call, and I'd be happy to chat!`}
+    <main className="flex flex-col items-center h-auto mt-8">
+      <div className="w-200 text-center">
+        If you like what you've seen and feel the need to reach out, fill out
+        the form below and I'll get back to you as soon as I can!
       </div>
-      <div className="m-2 text-center w-200">{`Nicholas "Nick" Pace`}</div>
-      <div className="mt-2 text-center w-200">{`NicholasPPace@gmail.com`}</div>
-      <div className="mb-2 text-center w-200">{`(Don't forget the second "P" in the middle there. Happens all the time.)`}</div>
-      <div className="m-2 text-center w-200">{"(813) 778-7337"}</div>
-    </div>
+      <div className="text-center mb-2 w-200"></div>
+      <input
+        className={
+          validName
+            ? "m-2 w-48 h-8 py-5 px-3 rounded-lg shadow-dark"
+            : "m-2 w-48 h-8 py-5 px-3 rounded-lg border-2 border-red-500 shadow-dark"
+        }
+        type="text"
+        placeholder="Name"
+        name="from_name"
+        onChange={(e) => {
+          setName(e.target.value);
+          setValidName(true);
+        }}
+      />
+      <input
+        className={
+          validName
+            ? "m-2 w-48 h-8 py-5 px-3 rounded-lg border-2 shadow-dark"
+            : "m-2 w-48 h-8 py-5 px-3 rounded-lg border-2 shadow-dark border-red-500"
+        }
+        type="email"
+        placeholder="Contact Email"
+        name="reply_to"
+        onChange={(e) => {
+          setEmail(e.target.value);
+          setValidEmail(true);
+        }}
+      />
+      <textarea
+        className={
+          validMessage
+            ? "m-2 w-96 h-48 px-3 py-5 rounded-lg border-2 shadow-dark"
+            : "m-2 w-96 h-48 px-3 py-5 rounded-lg border-2 shadow-dark border-red-500"
+        }
+        placeholder="Your Question/Commission/Print Details/Love Letter"
+        name="message"
+        onChange={(e) => {
+          setMessage(e.target.value);
+          setValidMessage(true);
+        }}
+      />
+      <button
+        className="m-2 bg-blueGray p-2 rounded-lg shadow-dark"
+        type="button"
+        onClick={sendEmail}
+      >
+        Submit
+      </button>
+      {validForm ? (
+        <div className="w-200 text-center m-2">
+          Thanks for the message. We'll get back to you as soon as we can!
+        </div>
+      ) : (
+        <div></div>
+      )}
+    </main>
   );
 }

@@ -17,7 +17,7 @@ import python from "../public/images/logos/pythonLogo.png";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center h-auto">
+    <main className="flex flex-col items-center h-auto mt-4">
       <div className="text-center m-2 mt-4 w-200 p-0">Welcome!</div>
       <div className="text-center m-2 w-200">
         {`Hey there! My name is Nick and I am an aspiring web developer. I've done
@@ -50,31 +50,31 @@ export default function Home() {
         <div className="flex flex-col items-center">
           {/* Row One */}
           <div className="flex w-full justify-evenly">
-            <div className="flex flex-col items-center m-2 bg-blueGray rounded-lg w-28">
+            <div className="flex flex-col items-center m-2 bg-blueGray rounded-lg w-28 shadow-dark">
               <Image src={js} className="m-2 h-16 w-16" alt="JavaScript" />
               <div className="w-full p-2 text-sm text-center bg-limeGreen rounded-lg">
                 JavaScript
               </div>
             </div>
-            <div className="flex flex-col items-center m-2 bg-blueGray rounded-lg w-28">
+            <div className="flex flex-col items-center m-2 bg-blueGray rounded-lg w-28 shadow-dark">
               <Image src={next} className="m-2 h-16 w-16" alt="NextJS" />
               <div className="w-full p-2 text-sm text-center bg-limeGreen rounded-lg">
                 Next JS
               </div>
             </div>
-            <div className="flex flex-col items-center m-2 bg-blueGray rounded-lg w-28">
+            <div className="flex flex-col items-center m-2 bg-blueGray rounded-lg w-28 shadow-dark">
               <Image src={node} className="m-2 h-16 w-16" alt="NodeJS" />
               <div className="w-full p-2 text-sm text-center bg-limeGreen rounded-lg">
                 Node JS
               </div>
             </div>
-            <div className="flex flex-col items-center m-2 bg-blueGray rounded-lg w-28">
+            <div className="flex flex-col items-center m-2 bg-blueGray rounded-lg w-28 shadow-dark">
               <Image src={react} className="m-2 h-16 w-16" alt="React" />
               <div className="w-full p-2 text-sm text-center bg-limeGreen rounded-lg">
                 React
               </div>
             </div>
-            <div className="flex flex-col items-center m-2 bg-blueGray rounded-lg w-28">
+            <div className="flex flex-col items-center m-2 bg-blueGray rounded-lg w-28 shadow-dark">
               <Image src={redux} className="m-2 h-16 w-16" alt="Redux" />
               <div className="w-full p-2 text-sm text-center bg-limeGreen rounded-lg">
                 Redux
@@ -84,31 +84,31 @@ export default function Home() {
 
           {/* Row Two */}
           <div className="flex w-full justify-evenly">
-            <div className="flex flex-col items-center m-2 bg-blueGray rounded-lg w-28">
+            <div className="flex flex-col items-center m-2 bg-blueGray rounded-lg w-28 shadow-dark">
               <Image src={html} className="m-2 h-16 w-16" alt="HTML" />
               <div className="w-full p-2 text-sm text-center bg-limeGreen rounded-lg">
                 HTML
               </div>
             </div>
-            <div className="flex flex-col items-center m-2 bg-blueGray rounded-lg w-28">
+            <div className="flex flex-col items-center m-2 bg-blueGray rounded-lg w-28 shadow-dark">
               <Image src={css} className="m-2 h-16 w-16" alt="CSS" />
               <div className="w-full p-2 text-sm text-center bg-limeGreen rounded-lg">
                 CSS
               </div>
             </div>
-            <div className="flex flex-col items-center m-2 bg-blueGray rounded-lg w-28">
+            <div className="flex flex-col items-center m-2 bg-blueGray rounded-lg w-28 shadow-dark">
               <Image src={vscode} className="m-2 h-16 w-16" alt="VSCode" />
               <div className="w-full p-2 text-sm text-center bg-limeGreen rounded-lg">
                 VSCode
               </div>
             </div>
-            <div className="flex flex-col items-center m-2 bg-blueGray rounded-lg w-28">
+            <div className="flex flex-col items-center m-2 bg-blueGray rounded-lg w-28 shadow-dark">
               <Image src={git} className="m-2 h-16 w-16" alt="Git" />
               <div className="w-full p-2 text-sm text-center bg-limeGreen rounded-lg">
                 Git
               </div>
             </div>
-            <div className="flex flex-col items-center m-2 bg-blueGray rounded-lg w-28">
+            <div className="flex flex-col items-center m-2 bg-blueGray rounded-lg w-28 shadow-dark">
               <Image src={github} className="m-2 h-16 w-16" alt="GitHub" />
               <div className="w-full p-2 text-sm text-center bg-limeGreen rounded-lg">
                 GitHub
@@ -118,7 +118,7 @@ export default function Home() {
 
           {/* Row Three */}
           <div className="flex w-full justify-evenly">
-            <div className="flex flex-col items-center m-2 bg-blueGray rounded-lg w-28">
+            <div className="flex flex-col items-center m-2 bg-blueGray rounded-lg w-28 shadow-dark">
               <Image
                 src={styledComponentsLogo}
                 className="m-2 h-16 w-16"
@@ -128,7 +128,7 @@ export default function Home() {
                 Styled Comp.
               </div>
             </div>
-            <div className="flex flex-col items-center m-2 bg-blueGray rounded-lg w-28">
+            <div className="flex flex-col items-center m-2 bg-blueGray rounded-lg w-28 shadow-dark">
               <Image
                 src={tailwind}
                 className="m-2 h-16 w-16"
@@ -138,13 +138,13 @@ export default function Home() {
                 Tailwind CSS
               </div>
             </div>
-            <div className="flex flex-col items-center m-2 bg-blueGray rounded-lg w-28">
+            <div className="flex flex-col items-center m-2 bg-blueGray rounded-lg w-28 shadow-dark">
               <Image src={macos} className="m-2 h-16 w-16" alt="MacOS" />
               <div className="w-full p-2 text-sm text-center bg-limeGreen rounded-lg">
                 MacOS
               </div>
             </div>
-            <div className="flex flex-col items-center m-2 bg-blueGray rounded-lg w-28">
+            <div className="flex flex-col items-center m-2 bg-blueGray rounded-lg w-28 shadow-dark">
               <Image
                 src={windowslogo}
                 className="m-2 h-16 w-16"
@@ -154,7 +154,7 @@ export default function Home() {
                 WindowsOS
               </div>
             </div>
-            <div className="flex flex-col items-center m-2 bg-blueGray rounded-lg w-28">
+            <div className="flex flex-col items-center m-2 bg-blueGray rounded-lg w-28 shadow-dark">
               <Image
                 src={python}
                 className="m-2 h-16 w-16"

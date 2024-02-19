@@ -1,55 +1,45 @@
 import Image from "next/image";
-import Link from "next/link";
-
 import WeatherSpritePreview from "../../public/images/weathersprite-image/weathersprite.jpg";
 import SpiritsAlmanacPreview from "../../public/images/spirits-almanac-image/spirits-almanac.jpg";
 import ThornbushPreview from "../../public/images/thornbush-photography-image/thornbush.jpg";
 
-export default function Sites() {
+export default function Portfolio() {
   return (
     <main className="flex flex-col items-center h-auto">
-      <div className="text-center w-200 m-4">
-        {`Below you'll find an assortment of my work. There's a few high level
-        details about each site, a link to the actual site, and a quick glimpse
-        of the site. If you have any questions not answered here, head over to
-        the contact page and drop me a line!`}
-      </div>
-
-      {/* Begin WeatherSprite */}
-      <div className="flex items-end w-200 justify-evenly h-auto">
+      {/* Begin Thornbush Photography */}
+      <div className="flex items-end justify-evenly w-200">
         <div className="flex items-center m-4">
-          <a href="https://www.weathersprite.com" target="_blank">
+          <a href="https://www.thornbushphotography.com" target="_blank">
             <Image
-              alt="WeatherSprite Preview"
-              className="m-4 w-60 shadow-dark"
-              src={WeatherSpritePreview}
+              alt="Thornbush Photography Preview"
+              className="m-4 w-96 shadow-dark"
+              src={ThornbushPreview}
             />
           </a>
-
           <div className="w-60 m-4">
             <a
-              className="text-darkBlue flex justify-center text-center font-Lemon text-2xl my-2 underline"
-              href="https://www.weathersprite.com"
+              className="flex justify-center text-center text-darkBlue text-2xl font-BadScript font-bold my-2 underline"
+              href="https://www.thornbushphotography.com"
               target="_blank"
             >
-              WeatherSprite.com
+              ThornbushPhotography.com
             </a>
             <div className="my-2">
-              {`This site is designed as a fairly simple weather app. More to find
-              out if you need a jacket for that day, the next few hours, or the
-              next few days.`}
+              {`Thornbush Photography was developed with a photographer in mind.
+              This site is intended to showcase a portfolio as well as provide a
+              contact point with fans of the photographer's work.`}
             </div>
-            <div className="text-center underline m-2">Notable Features</div>
+            <div className="text-center underline">Notable Features</div>
             <ul className="my-2">
               <li>React</li>
-              <li>Async/Await API Calls</li>
               <li>Styled Components</li>
-              <li>Mobile Styling</li>
+              <li>EmailJS</li>
+              <li>Modals</li>
             </ul>
           </div>
         </div>
       </div>
-      {/* End weathersprite */}
+      {/* End Thornbush Photography */}
 
       {/* Begin Spirits Almanac */}
       <div className="flex items-end justify-evenly w-200">
@@ -80,7 +70,7 @@ export default function Sites() {
           <a href="https://www.spiritsalmanac.com" target="_blank">
             <Image
               alt="Spirits Almanac Preview"
-              className="m-4 h-52 w-96 shadow-dark"
+              className="m-4 w-96 shadow-dark"
               src={SpiritsAlmanacPreview}
             />
           </a>
@@ -88,40 +78,39 @@ export default function Sites() {
       </div>
       {/* End Spirits Almanac */}
 
-      {/* Begin Thornbush Photography */}
-      <div className="flex items-end justify-evenly w-200">
+      {/* Begin WeatherSprite */}
+      <div className="flex items-end w-200 justify-evenly h-auto">
         <div className="flex items-center m-4">
-          <a href="https://www.spiritsalmanac.com" target="_blank">
+          <a href="https://www.weathersprite.com" target="_blank">
             <Image
-              alt="Thornbush Photography Preview"
-              className="m-4 h-52 w-96 shadow-dark"
-              src={ThornbushPreview}
+              alt="WeatherSprite Preview"
+              className="m-4 w-60 shadow-dark"
+              src={WeatherSpritePreview}
             />
           </a>
+
           <div className="w-60 m-4">
             <a
-              className="flex justify-center text-center text-darkBlue text-2xl font-BadScript font-bold my-2 underline"
-              href="https://www.thornbushphotography.com"
+              className="text-darkBlue flex justify-center text-center font-Lemon text-2xl my-2 underline"
+              href="https://www.weathersprite.com"
               target="_blank"
             >
-              ThornbushPhotography.com
+              WeatherSprite.com
             </a>
             <div className="my-2">
-              {`Thornbush Photography was developed with a photographer in mind.
-              This site is intended to showcase a portfolio as well as provide a
-              contact point with fans of the photographer's work.`}
+              {`This site is designed as a fairly simple mobile-first weather app. Find out if you need a jacket for that day, the next few hours, or the next few days.`}
             </div>
-            <div className="text-center underline">Notable Features</div>
+            <div className="text-center underline m-2">Notable Features</div>
             <ul className="my-2">
               <li>React</li>
+              <li>Async/Await API Calls</li>
               <li>Styled Components</li>
-              <li>EmailJS</li>
-              <li>Modals</li>
+              <li>Mobile Styling</li>
             </ul>
           </div>
         </div>
       </div>
-      {/* End Thornbush Photography */}
+      {/* End weathersprite */}
     </main>
   );
 }
