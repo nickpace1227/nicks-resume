@@ -52,7 +52,7 @@ export default function Home() {
           <div className="flex w-full justify-evenly">
             <div className="flex flex-col items-center m-2 bg-blueGray rounded-lg w-28">
               <Image src={js} className="m-2 h-16 w-16" alt="JavaScript" />
-              <div className="text-wrap p-2 text-sm text-center bg-limeGreen rounded-lg">
+              <div className="w-full p-2 text-sm text-center bg-limeGreen rounded-lg">
                 JavaScript
               </div>
             </div>
