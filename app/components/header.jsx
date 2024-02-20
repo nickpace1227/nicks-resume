@@ -12,19 +12,19 @@ export default function Header() {
           <nav>
             <Link
               href="/"
-              className="m-2 p-2 bg-blueGray rounded-lg hover:bg-white"
+              className="m-2 p-2 bg-blueGray rounded-lg hover:bg-white shadow-dark"
             >
               Home
             </Link>
             <Link
               href="/portfolio"
-              className="m-2 p-2 bg-blueGray rounded-lg hover:bg-white"
+              className="m-2 p-2 bg-blueGray rounded-lg hover:bg-white shadow-dark"
             >
               Portfolio
             </Link>
             <Link
               href="/contact"
-              className="m-2 p-2 bg-blueGray rounded-lg hover:bg-white"
+              className="m-2 p-2 bg-blueGray rounded-lg hover:bg-white shadow-dark"
             >
               Contact
             </Link>
@@ -35,7 +35,7 @@ export default function Header() {
             <a
               target="_blank"
               href="https://github.com/nickpace1227"
-              className="w-16 h-16  bg-blueGray flex justify-center items-center rounded-lg m-2 hover:bg-white"
+              className="w-16 h-16  bg-blueGray flex justify-center items-center rounded-lg m-2 hover:bg-white shadow-dark"
             >
               <Image
                 className="w-12 h-12 mx-2"
@@ -46,7 +46,7 @@ export default function Header() {
             <a
               target="_blank"
               href="https://www.linkedin.com/in/nicholas-pace-ab8717125/"
-              className="w-16 h-16  bg-blueGray flex justify-center items-center rounded-lg m-2 hover:bg-white"
+              className="w-16 h-16  bg-blueGray flex justify-center items-center rounded-lg m-2 hover:bg-white shadow-dark"
             >
               <Image
                 className="w-12 h-12 mx-2"

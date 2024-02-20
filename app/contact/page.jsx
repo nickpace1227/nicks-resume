@@ -57,8 +57,8 @@ export default function Contact() {
       if (errorCheck.form) {
         emailjs
           .send(
-            "service_kbie0nm",
-            "template_6v6pq99",
+            "service_7h9cfpg",
+            "template_6agexpm",
             contactMessage,
             "A50rxTr5mug440osn"
           )
