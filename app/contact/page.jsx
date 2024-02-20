@@ -75,8 +75,8 @@ export default function Contact() {
   return (
     <main className="flex flex-col items-center h-auto mt-8">
       <div className="w-200 text-center">
-        If you like what you've seen and feel the need to reach out, fill out
-        the form below and I'll get back to you as soon as I can!
+        {`If you like what you've seen and feel the need to reach out, fill out
+        the form below and I'll get back to you as soon as I can!`}
       </div>
       <div className="text-center mb-2 w-200"></div>
       <input
@@ -129,7 +129,7 @@ export default function Contact() {
       </button>
       {validForm ? (
         <div className="w-200 text-center m-2">
-          Thanks for the message. We'll get back to you as soon as we can!
+          {`Thanks for the message. I'll get back to you as soon as I can!`}
         </div>
       ) : (
         <div></div>
