@@ -57,15 +57,15 @@ export default function Home() {
               </div>
             </div>
             <div className="flex flex-col items-center m-2 bg-blueGray rounded-lg w-28 shadow-dark">
-              <Image src={next} className="m-2 h-16 w-16" alt="NextJS" />
+              <Image src={next} className="m-2 h-16 w-16" alt="Next.js" />
               <div className="w-full p-2 text-sm text-center bg-limeGreen rounded-lg">
-                Next JS
+                Next.js
               </div>
             </div>
             <div className="flex flex-col items-center m-2 bg-blueGray rounded-lg w-28 shadow-dark">
-              <Image src={node} className="m-2 h-16 w-16" alt="NodeJS" />
+              <Image src={node} className="m-2 h-16 w-16" alt="Node.js" />
               <div className="w-full p-2 text-sm text-center bg-limeGreen rounded-lg">
-                Node JS
+                Node.js
               </div>
             </div>
             <div className="flex flex-col items-center m-2 bg-blueGray rounded-lg w-28 shadow-dark">
