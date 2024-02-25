@@ -113,7 +113,7 @@ export default function Contact() {
             ? "m-2 w-96 h-48 px-3 py-5 rounded-lg border-2 shadow-dark"
             : "m-2 w-96 h-48 px-3 py-5 rounded-lg border-2 shadow-dark border-red-500"
         }
-        placeholder="Your Question/Commission/Print Details/Love Letter"
+        placeholder="Your Question for me goes right here."
         name="message"
         onChange={(e) => {
           setMessage(e.target.value);
