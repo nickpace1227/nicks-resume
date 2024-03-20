@@ -21,8 +21,9 @@ export default function Contact() {
   const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
 
   const sendEmail = (e) => {
-    e.preventDefault();
+    console.log("stuff");
 
+    e.preventDefault();
     const errorCheck = {
       name: validName,
       email: validEmail,

@@ -26,7 +26,7 @@ export default function Portfolio() {
             </a>
             <div className="my-2">
               {`Thornbush Photography was developed with a photographer in mind.
-              This site is intended to showcase a portfolio as well as provide a
+              This site is intended to showcase a photography portfolio as well as provide a
               contact point with fans of the photographer's work.`}
             </div>
             <div className="text-center underline">Notable Features</div>
@@ -53,7 +53,7 @@ export default function Portfolio() {
               SpiritsAlmanac.com
             </a>
             <div className="my-2">
-              {`Spirits Almanac is designed as a site in which to catalouge
+              {`Spirits Almanac is designed as a site to catalouge
               spirits you've tasted to advance the future of whiskey nerds, such
               as myself.`}
             </div>
