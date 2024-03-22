@@ -7,16 +7,20 @@ export default function Portfolio() {
   return (
     <main className="flex flex-col items-center h-auto">
       {/* Begin Thornbush Photography */}
-      <div className="flex items-end justify-evenly w-200">
-        <div className="flex items-center m-4">
-          <a href="https://www.thornbushphotography.com" target="_blank">
+      <div className="flex flex-col lg:flex-row justify-evenly w-screen lg:w-200">
+        <div className="flex flex-col lg:flex-row items-center m-4">
+          <a
+            href="https://www.thornbushphotography.com"
+            target="_blank"
+            className="p-4"
+          >
             <Image
               alt="Thornbush Photography Preview"
-              className="m-4 w-96 shadow-dark"
+              className="shadow-dark w-68"
               src={ThornbushPreview}
             />
           </a>
-          <div className="w-60 m-4">
+          <div className="w-68 m-4">
             <a
               className="flex justify-center text-center text-darkBlue text-2xl font-BadScript font-bold my-2 underline"
               href="https://www.thornbushphotography.com"
@@ -24,7 +28,7 @@ export default function Portfolio() {
             >
               ThornbushPhotography.com
             </a>
-            <div className="my-2">
+            <div className="my-2 w-68">
               {`Thornbush Photography was developed with a photographer in mind.
               This site is intended to showcase a photography portfolio as well as provide a
               contact point with fans of the photographer's work.`}
@@ -42,9 +46,20 @@ export default function Portfolio() {
       {/* End Thornbush Photography */}
 
       {/* Begin Spirits Almanac */}
-      <div className="flex items-end justify-evenly w-200">
-        <div className="flex items-center m-4">
-          <div className="w-60 m-4">
+      <div className="flex flex-col lg:flex-row lg:justify-evenly w-screen lg:w-200">
+        <div className="flex items-center flex-col lg:flex-row-reverse m-4">
+          <a
+            href="https://www.spiritsalmanac.com"
+            target="_blank"
+            className="p-4"
+          >
+            <Image
+              alt="Spirits Almanac Preview"
+              className="shadow-dark w-68"
+              src={SpiritsAlmanacPreview}
+            />
+          </a>
+          <div className="w-68 m-4">
             <a
               className="text-darkBlue flex justify-center text-center font-FjallaOne text-3xl my-2 underline"
               href="https://www.spiritsalmanac.com"
@@ -52,7 +67,7 @@ export default function Portfolio() {
             >
               SpiritsAlmanac.com
             </a>
-            <div className="my-2">
+            <div className="my-2 w-68">
               {`Spirits Almanac is designed as a site to catalouge
               spirits you've tasted to advance the future of whiskey nerds, such
               as myself.`}
@@ -67,29 +82,26 @@ export default function Portfolio() {
             </ul>
             <div className="mt-2"></div>
           </div>
-          <a href="https://www.spiritsalmanac.com" target="_blank">
-            <Image
-              alt="Spirits Almanac Preview"
-              className="m-4 w-96 shadow-dark"
-              src={SpiritsAlmanacPreview}
-            />
-          </a>
         </div>
       </div>
       {/* End Spirits Almanac */}
 
       {/* Begin WeatherSprite */}
-      <div className="flex items-end w-200 justify-evenly h-auto">
-        <div className="flex items-center m-4">
-          <a href="https://www.weathersprite.com" target="_blank">
+      <div className="flex flex-col lg:flex-row lg:justify-evenly w-screen lg:w-200">
+        <div className="flex flex-col lg:flex-row items-center m-4">
+          <a
+            href="https://www.weathersprite.com"
+            target="_blank"
+            className="p-4"
+          >
             <Image
               alt="WeatherSprite Preview"
-              className="m-4 w-60 shadow-dark"
+              className="shadow-dark w-200"
               src={WeatherSpritePreview}
             />
           </a>
 
-          <div className="w-60 m-4">
+          <div className="m-4">
             <a
               className="text-darkBlue flex justify-center text-center font-Lemon text-2xl my-2 underline"
               href="https://www.weathersprite.com"

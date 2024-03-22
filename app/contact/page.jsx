@@ -74,8 +74,8 @@ export default function Contact() {
   };
 
   return (
-    <main className="flex flex-col items-center h-auto mt-8">
-      <div className="w-200 text-center">
+    <main className="flex flex-col items-center w-screen h-auto">
+      <div className="w-screen p-4 m-2 lg:w-200 text-base lg:text-xl text-center">
         {`If you like what you've seen and feel the need to reach out, fill out
         the form below and I'll get back to you as soon as I can!`}
       </div>
@@ -111,8 +111,8 @@ export default function Contact() {
       <textarea
         className={
           validMessage
-            ? "m-2 w-96 h-48 px-3 py-5 rounded-lg border-2 shadow-dark"
-            : "m-2 w-96 h-48 px-3 py-5 rounded-lg border-2 shadow-dark border-red-500"
+            ? "m-2 w-68 lg:w-96 h-48 px-3 py-5 rounded-lg border-2 shadow-dark"
+            : "m-2 w-68 lg:w-96 h-48 px-3 py-5 rounded-lg border-2 shadow-dark border-red-500"
         }
         placeholder="Your Question for me goes right here."
         name="message"
@@ -129,7 +129,7 @@ export default function Contact() {
         Submit
       </button>
       {validForm ? (
-        <div className="w-200 text-center m-2">
+        <div className="w-screen m-2 p-4 lg:w-200 text-base lg:text-xl text-center">
           {`Thanks for the message. I'll get back to you as soon as I can!`}
         </div>
       ) : (
