@@ -16,11 +16,11 @@ export default function Portfolio() {
           >
             <Image
               alt="Thornbush Photography Preview"
-              className="shadow-dark w-68"
+              className="shadow-dark"
               src={ThornbushPreview}
             />
           </a>
-          <div className="w-68 m-4">
+          <div className="w-64 m-4">
             <a
               className="flex justify-center text-center text-darkBlue text-2xl font-BadScript font-bold my-2 underline"
               href="https://www.thornbushphotography.com"
@@ -28,7 +28,7 @@ export default function Portfolio() {
             >
               ThornbushPhotography.com
             </a>
-            <div className="my-2 w-68">
+            <div className="my-2 w-64">
               {`Thornbush Photography was developed with a photographer in mind.
               This site is intended to showcase a photography portfolio as well as provide a
               contact point with fans of the photographer's work.`}
@@ -55,11 +55,11 @@ export default function Portfolio() {
           >
             <Image
               alt="Spirits Almanac Preview"
-              className="shadow-dark w-68"
+              className="shadow-dark"
               src={SpiritsAlmanacPreview}
             />
           </a>
-          <div className="w-68 m-4">
+          <div className="w-64 m-4">
             <a
               className="text-darkBlue flex justify-center text-center font-FjallaOne text-3xl my-2 underline"
               href="https://www.spiritsalmanac.com"
@@ -67,7 +67,7 @@ export default function Portfolio() {
             >
               SpiritsAlmanac.com
             </a>
-            <div className="my-2 w-68">
+            <div className="my-2 w-64">
               {`Spirits Almanac is designed as a site to catalouge
               spirits you've tasted to advance the future of whiskey nerds, such
               as myself.`}
@@ -96,7 +96,7 @@ export default function Portfolio() {
           >
             <Image
               alt="WeatherSprite Preview"
-              className="shadow-dark w-200"
+              className="shadow-dark"
               src={WeatherSpritePreview}
             />
           </a>
@@ -109,7 +109,7 @@ export default function Portfolio() {
             >
               WeatherSprite.com
             </a>
-            <div className="my-2">
+            <div className="my-2 w-64">
               {`This site is designed as a fairly simple mobile-first weather app. Find out if you need a jacket for that day, the next few hours, or the next few days.`}
             </div>
             <div className="text-center underline m-2">Notable Features</div>
